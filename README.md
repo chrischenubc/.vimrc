@@ -1,5 +1,15 @@
 ![VIM](https://dnp4pehkvoo6n.cloudfront.net/43c5af597bd5c1a64eb1829f011c208f/as/Ultimate%20Vimrc.svg)
 
+# Intro
+This vim comfiguration is forked form [amix/vimrc](https://github.com/amix/vimrc).
+
+I set my personal config in [my_configs.vim](my_configs.vim)
+
+## Included features
+* personal key mappings
+* tab completion acts like zsh 
+* 'tab' is used to replace % to find matching brackets
+
 # The Ultimate vimrc
 
 Over the last 10 years, I have used and tweaked Vim. This configuration is the ultimate vimrc (or at least my version of it).
