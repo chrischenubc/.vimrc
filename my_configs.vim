@@ -19,8 +19,8 @@ set wildmode=longest,list,full
 set wildmenu
 
 "LEADER mappings
-"nnoremap <leader>ev <C-W><C-V><C-L>:e $HOME/.vim_runtime/my_configs.vim<cr>
-nnoremap <leader>ev :e $HOME/.vim_runtime/my_configs.vim<cr>
+"nnoremap <leader>ev <C-W><C-V><C-L>:e $HOME/.vim_runtime/my_configs.vim
+nnoremap <leader>ev :e $HOME/.vim_runtime/my_configs.vim
 
 "some ideas: 
 "f key case insensive settins
