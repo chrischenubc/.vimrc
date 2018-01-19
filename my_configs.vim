@@ -17,6 +17,7 @@ vnoremap <tab> %
 "LEADER mappings
 "nnoremap <leader>ev <C-W><C-V><C-L>:e $HOME/.vim_runtime/my_configs.vim<cr>
 nnoremap <leader>ev :e $HOME/.vim_runtime/my_configs.vim<cr>
+<<<<<<< HEAD
 
 "Disable arror key for training Vim key bindings
 noremap <Up> <Nop>
