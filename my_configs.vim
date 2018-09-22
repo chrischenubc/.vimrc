@@ -13,6 +13,7 @@ cnoreabbrev H vert h
 inoremap jj <ESC>
 nnoremap <tab> %
 vnoremap <tab> %
+noremap - $
 
 "LEADER mappings
 "nnoremap <leader>ev <C-W><C-V><C-L>:e $HOME/.vim_runtime/my_configs.vim<cr>
@@ -23,6 +24,19 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+noremap <esc> <nop>
+
+"map last edited buffer
+nmap <c-tab> :b#<cr>
+
+" <leader>+" surround a word with parethesis
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+
+"remap ctrl-t and ctrl-]
+nnoremap <c-a> <c-t>
+nnoremap <c-space> <c-]>
+nnoremap <leader>. <c-t>
+nnoremap <leader>/ <c-]>
 
 " map the ctags autocomplete
 lnoremap <c-]> <<c-x><c-]>
@@ -41,6 +55,9 @@ set wildmenu
 " Make the nerdtree change to the directory when opens a bookmark
 let NERDTreeChDirMode = 2
 
+" ingore the go_version update settings
+let g:go_version_warning = 0
+>>>>>>> ecd8d9f9da1f65702614fb1e9df4d369297a24cd
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins option
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
