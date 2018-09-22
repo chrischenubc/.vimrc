@@ -13,6 +13,7 @@ cnoreabbrev H vert h
 inoremap jj <ESC>
 nnoremap <tab> %
 vnoremap <tab> %
+noremap - $
 
 "LEADER mappings
 "nnoremap <leader>ev <C-W><C-V><C-L>:e $HOME/.vim_runtime/my_configs.vim<cr>
@@ -23,6 +24,13 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+noremap <esc> <nop>
+
+"map last edited buffer
+nmap <c-tab> :b#<cr>
+
+" <leader>+" surround a word with parethesis
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 
 "some ideas: 
 
@@ -34,7 +42,9 @@ noremap <Right> <Nop>
 "change default behaviour of tab complete, act like as Bash
 set wildmode=longest,list,full
 set wildmenu
-
+"
+" ingore the go_version update settings
+let g:go_version_warning = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins option
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
