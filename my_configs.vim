@@ -24,6 +24,9 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" map the ctags autocomplete
+lnoremap <c-]> <<c-x><c-]>
+
 "some ideas: 
 
 "f key case insensive settins
@@ -34,6 +37,9 @@ noremap <Right> <Nop>
 "change default behaviour of tab complete, act like as Bash
 set wildmode=longest,list,full
 set wildmenu
+
+" Make the nerdtree change to the directory when opens a bookmark
+let NERDTreeChDirMode = 2
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins option
