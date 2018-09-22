@@ -32,6 +32,12 @@ nmap <c-tab> :b#<cr>
 " <leader>+" surround a word with parethesis
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 
+"remap ctrl-t and ctrl-]
+nnoremap <c-a> <c-t>
+nnoremap <c-space> <c-]>
+nnoremap <leader>. <c-t>
+nnoremap <leader>/ <c-]>
+
 "some ideas: 
 
 "f key case insensive settins
