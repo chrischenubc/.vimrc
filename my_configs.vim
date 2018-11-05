@@ -66,7 +66,10 @@ colorscheme hybrid
 "change default behaviour of tab complete, act like as Bash
 set wildmode=longest,list,full
 set wildmenu
-"
+
+" Make the nerdtree change to the directory when opens a bookmark
+let NERDTreeChDirMode = 2
+
 " ingore the go_version update settings
 let g:go_version_warning = 0
 
