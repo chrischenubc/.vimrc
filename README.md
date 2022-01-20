@@ -4,13 +4,11 @@
 
 ```bash
 cd $HOME && git clone https://github.com/chrischenubc/.vimrc ~/.myvimconfig
-chmod +x ~/.myvimconfig/setup.sh
-./setup.sh
+chmod +x ~/.myvimconfig/setup.sh && ./.myvimconfig/setup.sh
 ```
 
 ### Install plugins
 ```bash
-cd $HOME && chmod +x ~/.myvimconfig/install_plugins.sh
-./install_plugins.sh
+chmod +x ~/.myvimconfig/install_plugins.sh && ./.myvimconfig/install_plugins.sh
 ```
 

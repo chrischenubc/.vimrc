@@ -14,7 +14,7 @@ else
 fi
 
 if [ ! -f $MY_VIMRC ] ; then
-        ln -s $PWD/my_configs.vim ~/.vim_runtime
+        ln -s ~/.myvimconfig/my_configs.vim $MY_VIMRC
 else
     echo "already linked my_configs.vim"
 fi
