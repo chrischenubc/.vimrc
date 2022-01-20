@@ -108,6 +108,8 @@ set stal=1
 set relativenumber
 set number
 
+"disable comment continuation
+autocmd BufNewFile,BufRead * setlocal formatoptions-=ro
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Insert mode
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
